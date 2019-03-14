@@ -1,11 +1,4 @@
-# Calliope mini BC95 NB-IoT module
-
-This is a package for controlling an NB-IoT module to send messages from the Calliope mini.
-It can be used by the [PXT Calliope mini editor](https://pxt.calliope.cc/). Should also work
-with PXT for Micro:bit.
-
-More information on the module can be found on the [Quectel website](http://www.quectel.com/product/bc95.htm).
-It is used in conjunction with an [evaluation kit](http://www.quectel.com/product/gsmevb.htm).
+# mcirobit BC95 NB-IoT module
 
 ## Wiring the module
 
@@ -103,9 +96,7 @@ connect to [46.23.86.61] from tmo-121-137.customers.d1-online.com [80.187.121.13
 - PXT/calliope
 - PXT/microbit
 
-Depends on [pxt-calliope-modem](https://github.com/calliope-mini/pxt-calliope-modem).
-
-Author: Matthias L. Jugel ([@thinkberg](https://twitter.com/thinkberg))
+Depends on [pxt-at-modem](https://github.com/wildanimal/pxt-at-modem).
 
 ## License
 
