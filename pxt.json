@@ -1,24 +1,24 @@
 {
-    "name": "pxt-calliope-bc95",
+    "name": "pxt-microbit-bc95",
     "version": "1.0.1",
     "description": "NB-IoT BC95 Module",
     "license": "MIT",
     "dependencies": {
         "core": "*",
-        "pxt-calliope-modem": "v1.0.2"
+        "pxt-at-modem": "v1.0.2"
     },
     "files": [
         "README.md",
         "bc95.ts",
-        "_locales/de/pxt-calliope-bc95-jsdoc-strings.json",
-        "_locales/de/pxt-calliope-bc95-strings.json"
+        "_locales/pxt-calliope-bc95-jsdoc-strings.json",
+        "_locales/pxt-calliope-bc95-strings.json"
     ],
     "testFiles": [
         "tests.ts"
     ],
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/calliope-mini/pxt-calliope-bc95.git"
+        "url": "git+https://github.com/wildanimal/pxt-microbit-bc95.git"
     },
     "public": true
 }
